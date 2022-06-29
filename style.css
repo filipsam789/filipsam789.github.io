@@ -1,0 +1,311 @@
+body{
+    background-image: linear-gradient(#64c7fc, #f2fcfe);
+    font-family: 'Calibri';
+}
+#container {
+    margin: auto;
+    width: 1600px;
+    height: 915px;
+}
+#contact_container{
+    margin: auto;
+    width: 1600px;
+    height: 1050px;
+}
+#edu_container{
+    margin: auto;
+    width: 1600px;
+    height: 1270px;
+}
+#travel_container {
+    margin: auto;
+    width: 1600px;
+    height: 3850px;
+}
+#header
+{
+    padding:10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 170px;
+}
+#header span{
+    margin-left: 31%;
+    padding: 20px 0px;
+    display: inline-block;
+    height: 60px;
+    border-radius: 10px;
+}
+#header h1 {
+    display: inline-block;
+    color: #005ef4;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 0px;
+    border-bottom: 2px solid midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border: 1px solid midnightblue;
+    margin-top: -3px;
+}
+#header ul {
+    list-style-type: none;
+    margin-left: 27%;
+    margin-top: 0%;
+    padding: 10px;
+}
+#header ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+a{
+    font-size: 16px;
+    font-family: Arial;
+    text-decoration: none;
+    color: midnightblue;
+    padding: 8px 30px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.current {
+    background-color: midnightblue;
+    color: white;
+}
+#main{
+    padding:10px;
+    margin-left: 15px;
+    margin-right: 30px;
+    height: 500px;
+}
+#edu_main{
+    padding:10px;
+    margin-left: 260px;
+    margin-right: 260px;
+    height: 500px;
+}
+#contact_main{
+    padding:10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 500px;
+}
+#travel_main{
+    padding:10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 500px;
+}
+#profile{
+    width: 350px;
+    border-radius: 8px;
+    margin: 23px;
+}
+#main span{
+    display: inline-block;
+    width: 1250px;
+    height: 500px;
+    border-radius: 8px;
+    margin-left: 10%;
+    border: 3px dashed midnightblue;
+    background: rgb(242, 242, 242);
+}
+#button1, #button2 {
+    display: block;
+    width: 135px;
+    height: 25px;
+    background: midnightblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+#main a:hover{
+    background-color: #009ff4;
+}
+#header a:hover{
+    color: white;
+}
+.current:hover{
+    padding: 12px 34px;
+}
+#footer ul {
+    list-style-type: none;
+    margin-left: 36%;
+    margin-top: 1%;
+    padding: 10px;
+    list-style-type: square;
+}
+#footer ul li {
+    display: inline-block;
+    margin-right: -40px;
+}
+#footer ul li a:hover{
+    color: #009ff4;
+}
+#footer2 ul {
+    list-style-type: none;
+    margin-left: 41%;
+    margin-top: -1%;
+    padding: 10px;
+    list-style-type: square;
+}
+#footer2 ul li {
+    display: inline-block;
+    margin-right: -40px;
+}
+#footer2 ul li a:hover{
+    color: #009ff4;
+}
+#edu_main img{
+    border: 3px solid white;
+    border-radius: 7px;
+}
+#primary_school{
+    display: block;
+    width: 450px;
+    clear: both;
+    float: left;
+    margin: -15px 0px  0px 0px;
+}
+#high_school{
+    display: block;
+    width: 450px;
+    margin: 20px 0px 0px 0px;
+    clear: both;
+    float: right;
+}
+#college{
+    display: block;
+    width: 450px;
+    clear: both;
+    margin: 20px 0px  0px 0px;
+    float: left;
+    border: 0px solid white;
+}
+
+#edu_main p{
+    color: midnightblue;
+    font-size: 18px;
+    display: block;
+}
+#travel_main h1{
+    color: #005ef4;
+    font-family: 'Calibri';
+}
+#travel_main img{
+    width: 325px;
+    border-radius: 3px;
+    margin: 5px;
+}
+#jas{
+    float: right;
+    width: 350px;
+    border-radius: 8px;
+    margin: 23px;
+    margin-top: -465px;
+}
+h3{
+    margin: -3% 200px;
+    font-family: calibri;
+    font-size: 25px;
+    color: midnightblue;
+    border-radius: 3px;
+    padding: 0px 0px 0px 0px;
+}
+#form{
+    margin-left: 0px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: rgb(244, 244, 244);
+    padding: 20px 50px;
+    font-family: calibri;
+    padding-top: 50px;
+    border: 2px solid midnightblue;
+    width: 1000px;
+}
+input{
+    width: 500px;
+    border-radius: 6px;
+    height: 40px;
+    border: 0.4px solid rgb(195, 194, 194);
+}
+label{
+    display: inline-block;
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+select{
+    width: 500px;
+    border-radius: 6px;
+    height: 40px;
+    border: 0.4px solid rgb(195, 194, 194);
+    margin-top: -10px;
+}
+#forms {
+    margin-top: -30px;
+    border-radius: 5px;
+    background: rgb(242, 242, 242);
+    padding: 20px 50px;
+    font-family: calibri;
+    height: 1000px;
+    width: 600px;
+}
+#other{
+    float: right;
+    margin: -400px 70px 0px 0px;
+}
+#other p{
+    margin: 0px 0px 0px 90px;
+    font-size: 18px;
+    color: rgb(21, 19, 42);
+    font-weight: bold;
+}
+#other img{
+    display: inline-block;
+    width: 300px;
+    margin: -20px 0px 0px 45px;
+}
+#other ul{
+    list-style-type: none;
+    margin: -30px 10px 0px 0px;
+}
+#other ul li{
+    display: inline-block;
+    margin: 0px 4px;
+}
+#other ul li a{
+    color: #585858;
+    padding: 10px;
+}
+#other ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+input[type=submit] {
+    background-color: #0073ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #005ef4;
+  }
+img:hover{
+    opacity: 90%;
+}
+#main img{
+    opacity: 100%;
+}
+#other img{
+    opacity: 100%;
+}
+#travel_main h1{
+    margin-left: 500px;
+}
